@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsha Photographer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Harsha</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#works">My Works</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="section hero">
+        <div class="hero-content">
+            <h1>Capturing Moments</h1>
+            <p>Photography is the story I fail to put into words.</p>
+            <a href="#works" class="btn">See My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="section about">
+        <div class="about-img">
+            <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=800&q=60" alt="Photographer portrait">
+        </div>
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra turpis at dolor facilisis, a blandit metus aliquet. Integer porta dui vel dui viverra, sed sagittis purus dignissim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
+            <p>Nullam egestas, nunc non suscipit ultrices, urna nulla cursus justo, sit amet scelerisque libero nisl sit amet ipsum. Morbi vitae dui ac libero egestas tincidunt. Aliquam erat volutpat.</p>
+        </div>
+    </section>
+
+    <section id="works" class="section works">
+        <h2>My Works</h2>
+        <div class="gallery">
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=60" alt="gallery1"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1487412912498-0447578fcca8?auto=format&fit=crop&w=800&q=60" alt="gallery2"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1519995451813-39a5df4f2da9?auto=format&fit=crop&w=800&q=60" alt="gallery3"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=60" alt="gallery4"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=800&q=60" alt="gallery5"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1499084732479-de2c02d45fc4?auto=format&fit=crop&w=800&q=60" alt="gallery6"></div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; <span id="year"></span> Harsha Photography</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
